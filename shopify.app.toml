@@ -2,7 +2,7 @@
 
 name = "discount-cap"
 client_id = "0cdfc7b246ffd3b95e5e695214f8690a"
-application_url = "https://RAILWAY_URL_PLACEHOLDER.up.railway.app"
+application_url = "https://web-production-59cc9.up.railway.app"
 embedded = true
 
 [access_scopes]
@@ -10,7 +10,7 @@ scopes = "write_discounts,read_orders,read_payment_methods"
 
 [auth]
 redirect_urls = [
-  "https://RAILWAY_URL_PLACEHOLDER.up.railway.app/auth/callback"
+  "https://web-production-59cc9.up.railway.app/auth/callback"
 ]
 
 [webhooks]
