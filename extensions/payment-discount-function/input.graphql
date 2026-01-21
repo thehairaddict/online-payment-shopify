@@ -1,0 +1,21 @@
+query Input {
+  cart {
+    lines {
+      id
+      quantity
+      cost {
+        subtotalAmount {
+          amount
+        }
+      }
+    }
+    cost {
+      subtotalAmount {
+        amount
+      }
+    }
+  }
+  paymentMethods {
+    type
+  }
+}

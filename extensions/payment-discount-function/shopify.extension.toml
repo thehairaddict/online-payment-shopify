@@ -1,0 +1,10 @@
+api_version = "2024-01"
+
+[[extensions]]
+type = "order_discounts"
+name = "payment-discount-function"
+handle = "payment-gateway-discount"
+
+[extensions.build]
+command = "cargo build --release"
+path = "target/wasm32-wasi/release/payment_discount_function.wasm"

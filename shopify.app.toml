@@ -1,0 +1,24 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "discount-cap"
+client_id = "0cdfc7b246ffd3b95e5e695214f8690a"
+application_url = "https://RAILWAY_URL_PLACEHOLDER.up.railway.app"
+embedded = true
+
+[access_scopes]
+scopes = "write_discounts,read_orders,read_payment_methods"
+
+[auth]
+redirect_urls = [
+  "https://RAILWAY_URL_PLACEHOLDER.up.railway.app/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "YOUR_STORE_URL.myshopify.com"
